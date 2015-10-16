@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+    </head>
+    <body>
+        <form action="parametros.php">
+            <input type="date" name="fecha" id="fecha"/>
+            <input type="checkbox" name="fumador" id="fumador" value="si" />
+            <input type="radio" name="sexo" id="sexom" value="Masculino" checked/>
+            <input type="radio" name="sexo" id="sexof" value="Femenino"/>
+            
+            <select name="select1">
+                <option value="">&nbsp;</option>
+                <option value="1">Opcion 1</option>
+                <option value="2">Opcion 2</option>
+                <option value="3">Opcion 3</option>
+            </select>
+            
+            <select name="select2" size="3">
+                <option value="0">Opcion 0</option>
+                <option value="1">Opcion 1</option>
+                <option value="2">Opcion 2</option>
+                <option value="3">Opcion 3</option>
+            </select>   
+            
+            <select name="select3" size="3" multiple>
+                <option value="0">Opcion 0</option>
+                <option value="1">Opcion 1</option>
+                <option value="2">Opcion 2</option>
+                <option value="3">Opcion 3</option>
+            </select>
+            
+            <input type="password" name="clave" value="" />
+            
+            <input type="submit" value="Enviar"/>
+        </form>
+    </body>
+</html>
